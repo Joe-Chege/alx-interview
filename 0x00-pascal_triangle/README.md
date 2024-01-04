@@ -1,6 +1,3 @@
-Of course! Here's a simplified version of the README.md content that you can directly copy and paste into an editor:
-
-```
 # Pascal's Triangle
 
 ## Overview
