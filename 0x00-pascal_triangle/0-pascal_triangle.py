@@ -9,6 +9,7 @@ def pascal_triangle(n):
     triangle = []
     if type(n) is not int or n <= 0:
         return triangle
+
     for i in range(n):
         line = []
         for j in range(i + 1):
@@ -18,4 +19,3 @@ def pascal_triangle(n):
                 line.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
         triangle.append(line)
     return triangle
-
